@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quimica Monstro</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        <div class="pag">
+        <h1>Escrava da Química</h1>
+        <h2 >Cálculos</h2>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Cálculos</a></li>
+                <li><a href="formulas.html">Fórmulas</a></li>
+                <li><a href="molaridade.html">Molaridade</a></li>
+                <form class="youtube" method="GET" action="https://www.youtube.com/results" target="_blank">
+                    <input type="text" name="search_query" newtab>
+                    <input type="submit" value="Pesquisar no Youtube">    
+                </form>
+    
+            </ul>       
+        
+        </nav>
+        
+    </header>
+
+    
+    
+    <section id="gridcontas">
+        <div class="container">
+
+            <h3 class="pag">Molaridade (mol/L)</h3>
+            <input class="caixas" id="massa" name="massa" type="number" placeholder="Massa (g)">
+            <input class="caixas" id="massamolar" name="massamolar" type="number" placeholder="Massa Molar (g/mol)" >
+            <input class="caixas" id="volume" name="volume" type="number" placeholder="Volume (Litros)">     
+            <button class="botao" onclick="limpar1()">Limpar</button>         
+            <button class="botao" onclick="calcular()">Calcular</button>       
+            <div class="resultado" id="re1">                   
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <h3 class="pag">Regra de 3</h3>            
+            <input class="caixas2" id="valor1" name="valor1" type="number" placeholder="Valor 1">
+            <input class="caixas2" id="valor2" name="valor2" type="number" placeholder="Valor 2" >
+            <input class="caixas2" id="valor3" name="valor3" type="number" placeholder="Valor 3">
+            <input class="caixas2" id="valorx" name="valorx" type="number" placeholder="Valor de X" readonly>     
+            <button class="botao" onclick="limpar2()">Limpar</button>
+            <button class="botao" onclick="calcular2()">Calcular</button>       
+            <div class="resultado" id="re2">            
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <h3 class="pag">Espaço reservado para novos cálculos</h3>            
+            <input class="caixas2" id="valor1" name="valor1" type="number" placeholder="Valor 1">
+            <input class="caixas2" id="valor2" name="valor2" type="number" placeholder="Valor 2" >
+            <input class="caixas2" id="valor3" name="valor3" type="number" placeholder="Valor 3">
+            <input class="caixas2" id="valorx" name="valorx" type="number" placeholder="Valor de X" readonly>     
+            <button class="botao" onclick="limpar2()">Limpar</button>
+            <button class="botao" onclick="calcular2()">Calcular</button>       
+            <div class="resultado" id="re3">             
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <h3 class="pag">Espaço reservado para novos cálculos</h3>            
+            <input class="caixas2" id="valor1" name="valor1" type="number" placeholder="Valor 1">
+            <input class="caixas2" id="valor2" name="valor2" type="number" placeholder="Valor 2" >
+            <input class="caixas2" id="valor3" name="valor3" type="number" placeholder="Valor 3">
+            <input class="caixas2" id="valorx" name="valorx" type="number" placeholder="Valor de X" readonly>     
+            <button class="botao" onclick="limpar2()">Limpar</button>
+            <button class="botao" onclick="calcular2()">Calcular</button>       
+            <div class="resultado" id="re4">         
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <h3 class="pag">Espaço reservado para novos cálculos</h3>            
+            <input class="caixas2" id="valor1" name="valor1" type="number" placeholder="Valor 1">
+            <input class="caixas2" id="valor2" name="valor2" type="number" placeholder="Valor 2" >
+            <input class="caixas2" id="valor3" name="valor3" type="number" placeholder="Valor 3">
+            <input class="caixas2" id="valorx" name="valorx" type="number" placeholder="Valor de X" readonly>     
+            <button class="botao" onclick="limpar2()">Limpar</button>
+            <button class="botao" onclick="calcular2()">Calcular</button>       
+            <div class="resultado" id="re5">          
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <h3 class="pag">Espaço reservado para novos cálculos</h3>            
+            <input class="caixas2" id="valor1" name="valor1" type="number" placeholder="Valor 1">
+            <input class="caixas2" id="valor2" name="valor2" type="number" placeholder="Valor 2" >
+            <input class="caixas2" id="valor3" name="valor3" type="number" placeholder="Valor 3">
+            <input class="caixas2" id="valorx" name="valorx" type="number" placeholder="Valor de X" readonly>     
+            <button class="botao" onclick="limpar2()">Limpar</button>
+            <button class="botao" onclick="calcular2()">Calcular</button>       
+            <div class="resultado" id="re6">          
+            </div>
+
+        </div>
+
+        
+        
+
+    </section>
+
+    
+
+    
+    
+    <script src="./scripts/script.js"></script>
+
+    <div></div>
+</body>
+
+</html>
+
+
